@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  background-color: #9a9ac1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app-container{
+  width: 490px;
+  height: auto;
+  margin: 220px auto;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color:cadetblue;
+
+  border-radius: 23px;
+  background: #e0e0e0;
+  box-shadow:  5px 5px 3px #5a5a5a,
+             -5px -5px 3px #ffffff;
+}
+

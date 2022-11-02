@@ -1,0 +1,40 @@
+.teclado{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+button{
+    font-size: 1.6em;
+    padding: 10px;
+    width: 90px;
+    height: 75px;
+    margin:5px;
+    border:none;
+    border-radius: 3px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 0px #5a5a5a,
+             -5px -5px 0px #ffffff;
+}
+
+#add, #subtract, #divide, #multiply{
+    background-color: #ad9acc;
+}
+#add:hover, #subtract:hover, #divide:hover, #multiply:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(73, 164, 89);
+    color: white;
+}
+
+#clear{
+    margin: 20px;
+    width:85%;
+    background-color: rgb(163, 214, 227);
+}
+
+#clear:hover{
+    background-color: rgb(91, 167, 186);
+}
